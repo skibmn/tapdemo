@@ -20,7 +20,6 @@ gem "paperclip", "~> 5.0.0"
 
 group :production do
 	gem 'pg'
-	gem 'rails_12factor'
 end
 
 group :development, :test do
@@ -40,5 +39,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
+
+ruby "2.4.1"
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
