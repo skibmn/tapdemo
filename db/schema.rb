@@ -15,6 +15,8 @@ ActiveRecord::Schema.define(version: 20171127212645) do
   create_table "listings", force: :cascade do |t|
     t.string "Name"
     t.text "Description"
+    t.text "Email"
+    t.string "Address"
     t.string "Daily_Rental_Price"
     t.decimal "Weekly_Rental_Price"
     t.datetime "created_at", null: false
