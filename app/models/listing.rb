@@ -12,6 +12,6 @@ class Listing < ActiveRecord::Base
     s3_region: ENV.fetch('AWS_REGION'),
   }
 }
-
+end
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
 end
