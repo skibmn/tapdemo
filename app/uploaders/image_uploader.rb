@@ -1,4 +1,4 @@
-class Listing < ActiveRecord::Base
+class listings < ActiveRecord::Base
  mount_uploader :image, ImageUploader
 end
 
